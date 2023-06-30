@@ -6,316 +6,439 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="container mx-auto">
-    <div class="flex flex-row py-5">
-      <div class="basis-1/2">
-        <img src="./static/su2016-logo2.png" alt="SimpleUpdates.com" />
+  <body>
+    <header class="border-b">
+      <div class="container mx-auto flex flex-row py-5">
+        <div class="basis-1/2">
+          <img src="./static/su2016-logo2.png" alt="SimpleUpdates.com" />
+        </div>
+        <div class="basis-1/2 text-right">
+          <a
+            class="text-gray-600 hover:text-gray-800"
+            href="http://www.simpleupdates.com/"
+          >
+            Visit SimpleUpdates.com
+          </a>
+        </div>
       </div>
-      <div class="basis-1/2">
-        <a class="text-blue-600" href="http://www.simpleupdates.com/"
-          >Visit SimpleUpdates.com</a
+    </header>
+    <div class="container mx-auto">
+      <h1 class="text-2xl font-bold pt-6">SimpleUpdates.com Intranet</h1>
+      <h2 class="text-lg font-bold pt-4">Quick Links</h2>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://meet.google.com/azm-cbfp-mih"
         >
-      </div>
+          Google Hangouts
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://www.simpleupdates.com/login.php"
+        >
+          Web Login
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://mail.google.com/a/simpleupdates.com/#"
+        >
+          Support@SimpleUpdates.com Webmail Login
+        </a>
+        (
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://admin.google.com/simpleupdates.com/AdminHome#UserList:org=0gjdgxs16ojsv1"
+        >
+          admin
+        </a>
+        )
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://dashboard.stripe.com/dashboard"
+        >
+          Stripe Payment Center
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://account.authorize.net/"
+          target="_new"
+        >
+          Authorize.net Virtual Terminal
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://smplupdts.onjive.com/admin/"
+        >
+          Jive PBX
+        </a>
+        |
+        <a class="text-blue-600 hover:text-blue-800" href="http://192.168.1.1/"
+          >Office Router</a
+        >
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://192.168.1.40:5000/"
+        >
+          DiskStation
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://support.simpleupdates.com/"
+        >
+          Support.SimpleUpdates.com
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://office.simpleupdates.com/bugs/su/"
+        >
+          Code Trac
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://office.simpleupdates.com/su_documentation/"
+        >
+          SU Code Docs
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://stackoverflow.com/c/simpleupdates/questions"
+        >
+          SU Q&amp;A
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://www.mxtoolbox.com/Whois.aspx"
+        >
+          Whois
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.easywhois.com/"
+        >
+          Easy Whois
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.whatsmydns.net/"
+        >
+          DNS Lookup
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://www.analogx.com/contents/dnsdig.htm"
+        >
+          DNS Query
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://whoisrequest.com/history/"
+        >
+          DNS History
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://whoisrequest.com/history/"
+        >
+          WHOIS Request History
+        </a>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://rr-n1-tor.opensrs.net/resellers/"
+        >
+          OpenSRS Reseller Login
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://manage.opensrs.net/"
+        >
+          Manage Domain
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://admin.b.hostedemail.com/"
+        >
+          Manage Emails
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://opensrs.com/services/domains/domain-pricing/"
+        >
+          Reseller Domain Name Pricing
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.ssls.com/"
+        >
+          SSL Wildcard Certs
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://simpleupdatescom.harvestapp.com/"
+          target="_new"
+        >
+          Harvest
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://app.gusto.com/login"
+          target="_new"
+        >
+          Gusto
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://trello.com/b/lFflLSIS/su-project-management"
+        >
+          Trello
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://github.com/orgs/SimpleUpdates/projects/1/views/1"
+        >
+          GitHub Projects Cards
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.simpleupdates.com/admin/form/response/list/1?page=1&amp;sort_by=CreatedAt&amp;is_ascending=true&amp;search=&amp;filter="
+        >
+          SU Contacts
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://support.simpleupdates.com/admin/form/response/list/1?page=1&amp;sort_by=CreatedAt&amp;is_ascending=true&amp;search=&amp;filter="
+        >
+          SU Support Tickets
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://ticket.adventistchurchconnect.com/"
+        >
+          ACC/ASC Tickets
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://github.com/SimpleUpdates/SUFramework/issues?state=open"
+          target="_new"
+        >
+          GitHub
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://github.com/SimpleUpdates/SUFramework/tree/master/view/twig/admin"
+          target="_new"
+        >
+          SU Framework &gt; View &gt; Twig &gt; Admin
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.facebook.com/SimpleUpdates"
+          target="_new"
+        >
+          facebook
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://twitter.com/SimpleUpdates"
+          target="_new"
+        >
+          twitter
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://www.linkedin.com/in/SimpleUpdates"
+          target="_new"
+        >
+          linkedin
+        </a>
+      </p>
+      <h2 class="text-lg font-bold pt-4">Debugging</h2>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://status.simpleupdates.com/"
+          target="_new"
+        >
+          SU System Status
+        </a>
+      </p>
+      <h2 class="text-lg font-bold pt-4">Hardware Configuration</h2>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1"
+          target="_new"
+        >
+          AWS
+        </a>
+        (
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://simpleupdates.signin.aws.amazon.com/console"
+          target="_new"
+        >
+          ami
+        </a>
+        )|
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://houston.simpleupdates.com/admin/management/website/list?page=1&amp;sort_by=PrimaryDomain.Name&amp;is_ascending=1&amp;search=&amp;status=&amp;vendor=&amp;non_aws_page=1&amp;non_aws_sort_by=Name&amp;non_aws_is_ascending=1&amp;non_aws_search=&amp;acc_domain_page=1&amp;acc_domain_sort_by=Orgid&amp;acc_domain_is_ascending=1&amp;acc_domain_search="
+          target="_new"
+        >
+          Houston
+        </a>
+        (V3) 107.21.50.45
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://random.adventistchurch.org/"
+          target="_new"
+        >
+          random.adventistchurch.org
+        </a>
+        (V1) 52.55.253.29
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://ftp.simpleupdates.com/"
+          target="_new"
+        >
+          ftp.simpleupdates.com
+        </a>
+        52.7.3.24
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://wowza.aws.simpleupdates.com:8088/enginemanager/Home.htm#home/_defaultVHost_"
+          target="_new"
+        >
+          Wowza Media Manager
+        </a>
+        52.71.233.138
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a107.21.39.201&amp;run=toolpage"
+          target="_new"
+        >
+          Email blacklist check
+        </a>
+        107.21.39.201
+      </p>
+      <h2 class="text-lg font-bold pt-4">Other Tools</h2>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://console.wasabisys.com/#/subuserLogin"
+        >
+          Wasabi
+        </a>
+        (root email: devops@simpleupdates.com)
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://apps.cygnius.net/passtest/"
+        >
+          zxcvbn password strength test
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://www.mycleveragency.com/blog/wp-content/uploads/2014/09/iphone-screen-size-comparison-v1.1.0.png"
+          target="_new"
+        >
+          iPhone screen sizes
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://docs.google.com/a/simpleupdates.com/viewer"
+        >
+          embed a pdf (viewer)
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.sejda.com/visually-combine-reorder-pdf"
+        >
+          Edit a PDF (online)
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://www.qrcode-tiger.com/"
+        >
+          QR Code Creator
+        </a>
+      </p>
+      <p>
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="http://batchgeo.com/"
+        >
+          create points on a map
+        </a>
+        |
+        <a
+          class="text-blue-600 hover:text-blue-800"
+          href="https://mymaps.google.com/"
+        >
+          Google MyMaps
+        </a>
+      </p>
+      <h2 class="text-lg font-bold pt-4">DNS servers</h2>
+      <p>ns.simpleupdates.com 34.192.31.5</p>
+      <p>ns2.simpleupdates.com 34.194.18.166</p>
+      <p>ns3.simpleupdates.com 34.193.145.137</p>
+      <p>ns4.simpleupdates.com 34.193.229.25</p>
     </div>
-    <h1 class="text-2xl font-bold pt-6">SimpleUpdates.com Intranet</h1>
-    <h2 class="text-lg font-bold pt-4">Quick Links:</h2>
-    <p>
-      <a class="text-blue-600" href="https://meet.google.com/azm-cbfp-mih"
-        >Google Hangouts</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://www.simpleupdates.com/login.php"
-        >Web Login</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="https://mail.google.com/a/simpleupdates.com/#"
-      >
-        Support@SimpleUpdates.com Webmail Login
-      </a>
-      (<a
-        class="text-blue-600"
-        href="https://admin.google.com/simpleupdates.com/AdminHome#UserList:org=0gjdgxs16ojsv1"
-      >
-        admin </a
-      >)
-    </p>
-    <p>
-      <a class="text-blue-600" href="https://dashboard.stripe.com/dashboard"
-        >Stripe Payment Center</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="https://account.authorize.net/"
-        target="_new"
-        >Authorize.net Virtual Terminal</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="https://smplupdts.onjive.com/admin/"
-        >Jive PBX</a
-      >
-      |
-      <a class="text-blue-600" href="http://192.168.1.1/">Office Router</a>
-      |
-      <a class="text-blue-600" href="http://192.168.1.40:5000/">DiskStation</a>
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://support.simpleupdates.com/"
-        >Support.SimpleUpdates.com</a
-      >
-      |
-      <a class="text-blue-600" href="http://office.simpleupdates.com/bugs/su/"
-        >Code Trac</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="http://office.simpleupdates.com/su_documentation/"
-        >SU Code Docs</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="https://stackoverflow.com/c/simpleupdates/questions"
-        >SU Q&amp;A</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://www.mxtoolbox.com/Whois.aspx"
-        >Whois</a
-      >
-      |
-      <a class="text-blue-600" href="https://www.easywhois.com/">Easy Whois</a>
-      |
-      <a class="text-blue-600" href="https://www.whatsmydns.net/">DNS Lookup</a>
-      |
-      <a class="text-blue-600" href="http://www.analogx.com/contents/dnsdig.htm"
-        >DNS Query</a
-      >
-      |
-      <a class="text-blue-600" href="http://whoisrequest.com/history/"
-        >DNS History</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://whoisrequest.com/history/"> </a>
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://whoisrequest.com/history/"></a
-      ><a class="text-blue-600" href="https://rr-n1-tor.opensrs.net/resellers/"
-        >OpenSRS Reseller Login</a
-      >
-      |
-      <a class="text-blue-600" href="http://manage.opensrs.net/"
-        >Manage Domain</a
-      >
-      |
-      <a class="text-blue-600" href="https://admin.b.hostedemail.com/"
-        >Manage Emails</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="https://opensrs.com/services/domains/domain-pricing/"
-        >Reseller Domain Name Pricing</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="https://www.ssls.com/"
-        >SSL Wildcard Certs</a
-      >
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://simpleupdatescom.harvestapp.com/"
-        target="_new"
-        >Harvest</a
-      >,
-      <a class="text-blue-600" href="https://app.gusto.com/login" target="_new"
-        >Gusto</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://trello.com/b/lFflLSIS/su-project-management"
-        >Trello</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://github.com/orgs/SimpleUpdates/projects/1/views/1"
-        >GitHub Projects Cards</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://www.simpleupdates.com/admin/form/response/list/1?page=1&amp;sort_by=CreatedAt&amp;is_ascending=true&amp;search=&amp;filter="
-        >SU Contacts</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://support.simpleupdates.com/admin/form/response/list/1?page=1&amp;sort_by=CreatedAt&amp;is_ascending=true&amp;search=&amp;filter="
-        >SU Support Tickets</a
-      >,
-      <a class="text-blue-600" href="https://ticket.adventistchurchconnect.com/"
-        >ACC/ASC Tickets</a
-      >
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://github.com/SimpleUpdates/SUFramework/issues?state=open"
-        target="_new"
-        >GitHub</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://github.com/SimpleUpdates/SUFramework/tree/master/view/twig/admin"
-        target="_new"
-        >SU Framework &gt; View &gt; Twig &gt; Admin</a
-      >
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://www.facebook.com/SimpleUpdates"
-        target="_new"
-        >facebook</a
-      >,
-      <a
-        class="text-blue-600"
-        href="https://twitter.com/SimpleUpdates"
-        target="_new"
-        >twitter</a
-      >,
-      <a
-        class="text-blue-600"
-        href="http://www.linkedin.com/in/SimpleUpdates"
-        target="_new"
-        >linkedin</a
-      >
-    </p>
-    <h2 class="text-lg font-bold pt-4">Debugging:</h2>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://status.simpleupdates.com/"
-        target="_new"
-        >SU System Status</a
-      >
-    </p>
-    <h2 class="text-lg font-bold pt-4">Hardware Configuration:</h2>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1"
-        target="_new"
-        >AWS</a
-      >
-      (<a
-        class="text-blue-600"
-        href="https://simpleupdates.signin.aws.amazon.com/console"
-        target="_new"
-        >ami</a
-      >),
-      <a
-        class="text-blue-600"
-        href="https://houston.simpleupdates.com/admin/management/website/list?page=1&amp;sort_by=PrimaryDomain.Name&amp;is_ascending=1&amp;search=&amp;status=&amp;vendor=&amp;non_aws_page=1&amp;non_aws_sort_by=Name&amp;non_aws_is_ascending=1&amp;non_aws_search=&amp;acc_domain_page=1&amp;acc_domain_sort_by=Orgid&amp;acc_domain_is_ascending=1&amp;acc_domain_search="
-        target="_new"
-        >Houston</a
-      >
-      (V3) 107.21.50.45
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://random.adventistchurch.org/"
-        target="_new"
-        >random.adventistchurch.org</a
-      >
-      (V1) 52.55.253.29
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://ftp.simpleupdates.com/"
-        target="_new"
-        >ftp.simpleupdates.com</a
-      >
-      52.7.3.24
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://wowza.aws.simpleupdates.com:8088/enginemanager/Home.htm#home/_defaultVHost_"
-        target="_new"
-        >Wowza Media Manager</a
-      >
-      52.71.233.138
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a107.21.39.201&amp;run=toolpage"
-        target="_new"
-        >Email blacklist check</a
-      >
-      107.21.39.201
-    </p>
-    <h2 class="text-lg font-bold pt-4">Other Config</h2>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://console.wasabisys.com/#/subuserLogin"
-        >Wasabi</a
-      >
-      (root email: devops@simpleupdates.com)
-    </p>
-    <p>
-      <a class="text-blue-600" href="https://apps.cygnius.net/passtest/"
-        >zxcvbn password strength test</a
-      >
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="http://www.mycleveragency.com/blog/wp-content/uploads/2014/09/iphone-screen-size-comparison-v1.1.0.png"
-        target="_new"
-        >iPhone screen sizes</a
-      >
-    </p>
-    <p>
-      <a
-        class="text-blue-600"
-        href="https://docs.google.com/a/simpleupdates.com/viewer"
-        >embed a pdf (viewer)</a
-      >
-      |
-      <a
-        class="text-blue-600"
-        href="https://www.sejda.com/visually-combine-reorder-pdf"
-        >Edit a PDF (online)</a
-      >
-      |
-      <a class="text-blue-600" href="https://www.qrcode-tiger.com/"
-        >QR Code Creator</a
-      >
-    </p>
-    <p>
-      <a class="text-blue-600" href="http://batchgeo.com/"
-        >create points on a map</a
-      >
-      |
-      <a class="text-blue-600" href="https://mymaps.google.com/"
-        >Google MyMaps</a
-      >
-    </p>
-    <h2 class="text-lg font-bold pt-4">DNS servers:</h2>
-    <p>ns.simpleupdates.com 34.192.31.5</p>
-    <p>ns2.simpleupdates.com 34.194.18.166</p>
-    <p>ns3.simpleupdates.com 34.193.145.137</p>
-    <p>ns4.simpleupdates.com 34.193.229.25</p>
   </body>
 </html>
